@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+	gap: 1em;
+}
+.btn{
+	padding: 2em;
+	background: gray;
+	color: white;
+	border:1px inset blue;
+	font-family: Barlow;
+	font-weight: 600;
+}
+p{
+	font-family: Barlow;
+	font-weight: 800;
+}
